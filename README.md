@@ -53,3 +53,24 @@ Sourcemaps
 - Maps code back to original source
 - Part of our build
 - Downloaded if you open developer tools
+
+### Linting
+
+(why)
+
+- Enforce Consistancy
+- Avoid Mistakes
+
+- JSLint
+- JSHint
+- ESLint
+
+#### ESLint
+
+- Config Format(.js, .yaml, .eslinrc.json, .eslinrc, package.json[tied to npm])
+- Rules https://eslint.org/docs/latest/rules/
+- Warning vs Erros
+- Plugins https://github.com/dustinspecker/awesome-eslint
+- Presets(ESLint Recommended, airbnb, XO..)
+- ESLint doesn't watch files : use eslint-loader(Re-lint all files upon save), npm package eslint-watch
+- Babel-eslint to also lint experimental JS features not just current ones (when running ESLint directly)
