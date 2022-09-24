@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  devtool: "inline-source-map",
+  devtool: "eval-source-map",
   entry: [path.resolve(__dirname, "src/index")],
   output: {
     path: path.resolve(__dirname, "src"),

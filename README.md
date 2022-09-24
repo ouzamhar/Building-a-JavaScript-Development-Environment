@@ -47,3 +47,9 @@ Build script JS style
 
 - Plain JS(no waiting for transpile, no transpile dependancy)
 - Transpiled(enjoy latest features, consistent coding style, same linting rules everywhere, can eventually remove transpiler)
+
+Sourcemaps
+
+- Maps code back to original source
+- Part of our build
+- Downloaded if you open developer tools
