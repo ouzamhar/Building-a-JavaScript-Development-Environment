@@ -74,3 +74,49 @@ Sourcemaps
 - Presets(ESLint Recommended, airbnb, XO..)
 - ESLint doesn't watch files : use eslint-loader(Re-lint all files upon save), npm package eslint-watch
 - Babel-eslint to also lint experimental JS features not just current ones (when running ESLint directly)
+
+### Testing
+
+- Unit testing: Single function or module
+- Integration testing: interactions between modules
+- UI: Automate interactions with UI
+
+#### Unit Testing
+
+- Framework?
+- Assertion library?
+- Helper libraries?
+- When to run tests?
+- Where to place tests
+- when to run tests
+
+#### Frameworks
+
+- Mocha
+- Jasmine (Assertion built in)
+- Tape
+- QUnit
+- AVA
+- Jest (Assertion built in)
+
+#### Assertion library
+
+- Asserion is a way to declare what you expect
+
+#### Helper library
+
+- JSDOM simulate the browser-s DOM to runn DOM-related tests without a browser
+- Cheerio Query virtual DOM using jQuery selectors
+
+#### Where to test
+
+- Browser: Karma, Testem
+- Headless Browser: Headless Chrome
+- In-memory DOM : JSDOM
+
+#### Where to place tests
+
+- Centralized
+- Alongside
+
+#### Unit tests should run evrytime you hit save
